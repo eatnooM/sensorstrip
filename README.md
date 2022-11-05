@@ -23,6 +23,11 @@ NOTE: This revision is currently untested.
 | R5,R6 | 5.1K 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
 | SW1 | DPDT - [LCSC](https://lcsc.com/product-detail/Slide-Switches_C-K-JS202011SCQN_C221666.html) [(alternative)](https://lcsc.com/product-detail/Slide-Switches_XKB-Connectivity-SS-3235S-L1_C500055.html)  | |
 
+## Board
+
+Grab the [gerbers](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-gerbers.zip) and upload to your favourite PCB fab [Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius). HASL is a-ok to use and the cheapest option.
+
+
 ## Assembly
 
 ### Tools required
