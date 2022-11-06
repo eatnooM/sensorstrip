@@ -4,7 +4,7 @@
 
 License: CC BY-NC 4.0
 
-A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a PC monitor (TODO: picture of this)
+A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a PC monitor: ![Image of board mounted under a monitor](resources/sensorstrip-mounting.jpg)
 
 This will work under a TV just fine, but as of this moment the LEDs on either side are closer together than the stock Sensor Bar. This will shorten the effective range to roughly between 60cm-2m (handy for those playing on a cozier setup; probably not ideal for those playing on massive TVs in their livingrooms). If there's enough demand, I may create a wider version. Alternatively, the project is open source - go nuts.
 
@@ -25,8 +25,9 @@ NOTE: This revision is currently untested.
 
 ## Board
 
-Grab the [gerbers](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-gerbers.zip) and upload to your favourite PCB fab [Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius). HASL is a-ok to use and the cheapest option.
+Grab the [gerbers](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-gerbers.zip) and upload to your favourite PCB fab [Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
 
+HASL is a-ok to use and the cheapest option, so would recommend this as the surface finish.
 
 ## Assembly
 
