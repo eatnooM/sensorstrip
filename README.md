@@ -4,7 +4,9 @@
 
 License: CC BY-NC 4.0
 
-A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a PC monitor: ![Image of board mounted under a monitor](resources/sensorstrip-mounting.jpg)
+A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a PC monitor: 
+
+![Image of board mounted under a monitor](resources/sensorstrip-mounting.jpg)
 
 This will work under a TV just fine, but as of this moment the LEDs on either side are closer together than the stock Sensor Bar. This will shorten the effective range to roughly between 60cm-2m (handy for those playing on a cozier setup; probably not ideal for those playing on massive TVs in their livingrooms). If there's enough demand, I may create a wider version. Alternatively, the project is open source - go nuts.
 
