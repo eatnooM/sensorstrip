@@ -59,6 +59,6 @@ The latest revision's split design was suggested by somebody smarter than me as 
 - Arranged in a triangular pattern, presumably to increase viewable angles
 - 850nm wavelength
 
-This inspired me to split the bar up after all, addressing exactly one of the above issues. I just learned somebody else is working on some boards tailored to the GunCon 3 literally as I'm writing this, but nonetheless I'd love to hear if someone had any luck using these in conjunction with some 850nm LEDs (possibly tweaking the value of R1 lower - some brief research suggests 850nm emitters have higher forward voltage).
+This inspired me to split the bar up after all, addressing exactly one of the above issues. I just learned somebody else is working on some boards tailored to the GunCon 3 literally as I'm writing this, but nonetheless I'd love to hear if someone had any luck using these in conjunction with some 850nm LEDs (possibly tweaking the value of R1 lower - some brief research suggests 850nm emitters have higher forward voltage). https://wiibrew.org/wiki/Wiimote suggests 850nm will work with a Wiimote, but the LEDs will need to be a little brighter than with the 940nm ones they're intended for.
 
 I'd be curious to see how a Wiimote handles a sensor bar populated with 850nm emitters - maybe there's a chance to try and get dual functionality out of a single device. Or maybe two of these works better - after all, constantly adjusting spacing would be annoying, and a lot of PCB fabs have a minimum quantity of 5 anyway.
