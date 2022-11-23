@@ -18,7 +18,7 @@ NOTE: This revision is currently untested. It should be electrically sound, but 
 |----------|-------------|-------|
 | J1 | 6-pin SMD Type C connector - [LCSC](https://lcsc.com/product-detail/USB-Connectors_DEALON-USB-TYPE-C-007_C2927027.html) |  |
 | J2 | JST SM02B-GHS-TB - [LCSC](https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM02B-GHS-TB-LF-SN_C189893.html) |  |
-| - | JST GHR-02V-S - [AliExpress](https://www.aliexpress.com/item/1005004538759482.html) [LCSC](https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America-GHR-02V-S_C160416.html) | Use 'Reverse Direction' option |
+| - | JST GHR-02V-S - [AliExpress](https://www.aliexpress.com/item/1005004538759482.html), [LCSC](https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America-GHR-02V-S_C160416.html) | Use 'Reverse Direction' option |
 | D1-6 | IR LED - 940nm - [LCSC](https://lcsc.com/product-detail/Infrared-IR-LEDs_Everlight-Elec-IR204-H60_C60099.html) | 3mm with 2.54mm lead spacing fits well |
 | R1 | 120R 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF1200V_C169257.html) | |
 | R5,R6 | 5.1K 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
@@ -38,9 +38,7 @@ HASL is a-ok to use and the cheapest option, so would recommend this as the surf
 - Flux (will help keep your joints shiny and happy)
 - Tweezers (good luck holding 0603 parts in place with your fingers)
 
-Assembly should be possible with just an iron - I'd recommend installing the USB-C port as it's the trickiest and doesn't significantly interfere with installing the resistors.
-
-As this is a _reasonably_ straightforward process, I'll include instructions for those who may be doing SMD soldering for the first time but would of course recommend trying a practice kit as a cheaper and more instructive learning tool first.
+Assembly should be possible with just an iron. As this is a _reasonably_ straightforward process, I'll include instructions for those who may be doing SMD soldering for the first time but would of course recommend trying a practice kit as a cheaper and more instructive learning tool first.
 
 ### Steps
 
