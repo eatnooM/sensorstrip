@@ -17,8 +17,8 @@ NOTE: This revision is currently untested. It should be electrically sound, but 
 | Reference | Part desc / number | Notes |
 |----------|-------------|-------|
 | J1 | 6-pin SMD Type C connector - [LCSC](https://lcsc.com/product-detail/USB-Connectors_DEALON-USB-TYPE-C-007_C2927027.html) |  |
-| J2 | JST SM02B-GHS-TB [LCSC](https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM02B-GHS-TB-LF-SN_C189893.html) |  |
-| - | JST GHR-02V-S [AliExpress](https://www.aliexpress.com/item/1005004538759482.html) [LCSC](https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America-GHR-02V-S_C160416.html) | Needs 'Reverse Direction' / polarity swapped on|
+| J2 | JST SM02B-GHS-TB - [LCSC](https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America-SM02B-GHS-TB-LF-SN_C189893.html) |  |
+| - | JST GHR-02V-S - [AliExpress](https://www.aliexpress.com/item/1005004538759482.html) [LCSC](https://lcsc.com/product-detail/Rectangular-Connectors-Housings_JST-Sales-America-GHR-02V-S_C160416.html) | Use 'Reverse Direction' option |
 | D1-6 | IR LED - 940nm - [LCSC](https://lcsc.com/product-detail/Infrared-IR-LEDs_Everlight-Elec-IR204-H60_C60099.html) | 3mm with 2.54mm lead spacing fits well |
 | R1 | 120R 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF1200V_C169257.html) | |
 | R5,R6 | 5.1K 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
