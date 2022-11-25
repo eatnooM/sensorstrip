@@ -525,7 +525,6 @@
     )
   )
 
-
   (junction (at 94.488 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 0185e53e-7a12-4bf7-be5a-cc9a97d0a4db)
   )
@@ -751,7 +750,7 @@
   (symbol (lib_id "Device:LED") (at 92.456 98.552 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0ddf7455-9149-4dbc-979b-f086dbd57a6e)
-    (property "Reference" "D4" (id 0) (at 88.646 101.9718 0)
+    (property "Reference" "D3" (id 0) (at 88.646 101.9718 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 88.646 104.5087 0)
@@ -839,7 +838,7 @@
   (symbol (lib_id "Device:LED") (at 92.71 91.44 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 63064b45-8333-4184-9fef-8aa5647d0b0b)
-    (property "Reference" "D3" (id 0) (at 88.9 94.8598 0)
+    (property "Reference" "D2" (id 0) (at 88.9 94.8598 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 88.9 97.3967 0)
@@ -905,7 +904,7 @@
   (symbol (lib_id "Device:LED") (at 92.71 83.058 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cb16ca99-563a-4e3e-999e-31e3640245a2)
-    (property "Reference" "D2" (id 0) (at 89.408 87.4394 0)
+    (property "Reference" "D1" (id 0) (at 89.408 87.4394 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 89.408 89.9794 0)
@@ -960,13 +959,13 @@
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
     (path "/cb16ca99-563a-4e3e-999e-31e3640245a2"
-      (reference "D2") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
+      (reference "D1") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
     )
     (path "/63064b45-8333-4184-9fef-8aa5647d0b0b"
-      (reference "D3") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
+      (reference "D2") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
     )
     (path "/0ddf7455-9149-4dbc-979b-f086dbd57a6e"
-      (reference "D4") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
+      (reference "D3") (unit 1) (value "LED") (footprint "sensorstrip:LED_THT-1.27mm-OrthogonalSMDMount")
     )
     (path "/afd52f1f-8d14-45fe-8984-08ddf10bb430"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_PowerOnly") (footprint "sensorstrip:DEALON USB Type-C 6Pin")
