@@ -4,7 +4,7 @@
 
 License: CC BY-NC 4.0
 
-A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a PC monitor: 
+A replacement sensor bar for use with the Wii with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a display:
 
 ![Image of board mounted under a monitor](resources/sensorstrip-mounting.jpg)
 
