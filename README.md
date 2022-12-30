@@ -51,13 +51,15 @@ You'll be assembling two of these boards - one for each side. Only one of these 
 - Lastly, add the switch to the board with the USB-C port. Handily, orientation does not matter!
 	- Alternatively, you can bridge the jumper J1 with a blob of solder to force the board to be always on when plugged in. You don't need to do this for the board receiving power through J2 - this is affected by the main board's power switch too.
 
-## Going off-piste
+## Going off-piste - Guncon 3
+
+TL;DR: If you want to use a Guncon 3 with MiSTer, go buy [the MiSTer Addons Guncon 3 emitters](https://misteraddons.com/products/guncon-accessories?variant=39803690844293) instead
 
 The latest revision's split design was suggested by somebody smarter than me as a way to support a wider range of distances between display and player. Naturally, I completely disregarded this advice. Later, however, I found out that the GunCon 3 also uses IR LEDs in a similar fashion to the Wiimote, but its LEDs are:
 - Placed in the upper corners of the display
 - Arranged in a triangular pattern, presumably to increase viewable angles
 - 850nm wavelength
 
-This inspired me to split the bar up after all, addressing exactly one of the above issues. I just learned somebody else is working on some boards tailored to the GunCon 3 literally as I'm writing this, but nonetheless I'd love to hear if someone had any luck using this board with some 850nm LEDs and a GunCon 3 (possibly tweaking the value of R1 lower - some brief research suggests 850nm emitters have higher forward voltage).
+This inspired me to split the bar up after all, addressing exactly one of the above issues. I'dlove to hear if someone had any luck using this board with some 850nm LEDs and a GunCon 3 (possibly tweaking the value of R1 lower - some brief research suggests 850nm emitters have higher forward voltage).
 
 I'd also be curious to see how a Wiimote handles a sensor bar populated with 850nm emitters. https://wiibrew.org/wiki/Wiimote suggests 850nm will work with a Wiimote, but the LEDs will need to be a little brighter than with the 940nm ones they're intended for. Maybe there's a chance to try and get simultaneous support for Wiimote and GunCon 3 out of a single setup. Or maybe two of these is a more workable solution - after all, constantly adjusting spacing would be annoying and a lot of PCB fabs have a minimum quantity of 5 anyway.
