@@ -2,11 +2,10 @@
 fp-info-cache
 fp-lib-table
 gerbers/
-sensorstrip-backups/
+sensorstrip*-backups/
 *.bak
 *.kicad_mod
 *.kicad_sym
 *.kicad_prl
 *.round_tracks-config
 sym-lib-table
-sensorstrip.round-tracks-config
