@@ -23,7 +23,7 @@ An IR LED emitter setup, for use with the Wii or IR-based light guns with a focu
 
 ## Board
 
-Grab the [gerbers](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-sender/sensorstrip-sender-gerbers.zip, https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-receiver/sensorstrip-receiver-gerbers.zip) and upload to your favourite PCB fab ([Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
+Grab the gerbers [sender](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-sender/sensorstrip-sender-gerbers.zip), [receiver](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-receiver/sensorstrip-receiver-gerbers.zip) and upload to your favourite PCB fab ([Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
 
 HASL is a-ok to use and generally the cheapest option, so would recommend this as the surface finish.
 
@@ -56,6 +56,6 @@ Once you're done, plug in your cable between the Power out of the sender board a
 
 ## Considerations - Light Guns 
 
-If you need more emitters, you can daisy chain receiver boards. If you're looking to chain a whopping 8 boards together for a 4x6 setup, however, be aware that the recommended power switch has a 600mA current capacity and the BOM entry for F1 has a hold current of 750mA - the [Littelfuse 0805L100WR](https://www.lcsc.com/product-detail/Resettable-Fuses_Littelfuse-0805L100WR_C80270.html is more suited for higher draw scenarios.
+If you need more emitters, you can daisy chain receiver boards. If you're looking to chain a whopping 8 boards together for a 4x6 setup, however, be aware that the recommended power switch has a 600mA current capacity and the BOM entry for F1 has a hold current of 750mA - the [Littelfuse 0805L100WR](https://www.lcsc.com/product-detail/Resettable-Fuses_Littelfuse-0805L100WR_C80270.html) is more suited for higher draw scenarios.
 
 Aside from the potentially different fuse and LEDs, assembly works just the same as a Wii sensor bar setup, except you will add 2 more power boards with both J1 and J2 populated, so you can pass the power through them to the subsequent board.
