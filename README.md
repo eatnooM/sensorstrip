@@ -16,7 +16,7 @@ An IR LED emitter setup, for use with the Wii or IR-based light guns with a focu
 | J2 (both), J1 (receiver) | Molex 53261-0271  - [LCSC](https://www.lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_MOLEX-532610271_C189700.html) |  |
 | - | Picoblade Cable assembly - [Preassembled - Mouser (45cm length)](https://www.mouser.co.uk/ProductDetail/Molex/15134-0205?qs=F%2F1Z9SgJL%252BW0yu3FEJM3cA%3D%3D), [LCSC](https://www.lcsc.com/product-detail/_MOLEX-_C293613.html) + (https://www.lcsc.com/product-detail/_MOLEX-_C259763.html) | |
 | D1-3 | IR LED - 940nm - [LCSC](https://lcsc.com/product-detail/Infrared-IR-LEDs_Everlight-Elec-IR204-H60_C60099.html) | 3mm with 2.54mm lead spacing fits well |
-| R1 | 12-120R 0805 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF1200V_C169257.html) | Value depends on your LEDs - 56-120R should work with the Everlight emitters |
+| R1 | 7-120R 0805 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF1200V_C169257.html) | Value depends on your LEDs - 56-120R should work with the Everlight emitters |
 | F1 | 0805 PTC - [LCSC](https://www.lcsc.com/product-detail/_Murata-Electronics-_C184863.html) | Overcurrent protection |
 | R2,R3 | 5.1K 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
 | SW1 | DPDT - [LCSC](https://lcsc.com/product-detail/Slide-Switches_C-K-JS202011SCQN_C221666.html) [(alternative)](https://lcsc.com/product-detail/Slide-Switches_XKB-Connectivity-SS-3235S-L1_C500055.html)  | Optional, but recommended; use C&K switch if using bright LEDs |
