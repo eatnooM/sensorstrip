@@ -1,7 +1,7 @@
 
 fp-info-cache
 fp-lib-table
-gerbers/
+*-gerbers/
 sensorstrip*-backups/
 *.bak
 *.kicad_mod
