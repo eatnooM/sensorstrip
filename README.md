@@ -58,4 +58,4 @@ Once you're done, plug in your cable between the Power out of the sender board a
 
 If you need more emitters, you can daisy chain receiver boards. If you're looking to chain a whopping 8 boards together for a 4x6 setup, however, be aware that the recommended power switch has a 600mA current capacity and the BOM entry for F1 has a hold current of 750mA - the [Littelfuse 0805L100WR](https://www.lcsc.com/product-detail/Resettable-Fuses_Littelfuse-0805L100WR_C80270.html) is more suited for higher draw scenarios.
 
-Aside from the potentially different fuse and LEDs, assembly works just the same as a Wii sensor bar setup, except you will add 2 more power boards with both J1 and J2 populated, so you can pass the power through them to the subsequent board.
+Aside from the potentially different fuse and LEDs, assembly works just the same as a Wii sensor bar setup, except you will add 2 more receiver boards with both J1 and J2 populated, so you can pass the power through them to the subsequent board.
