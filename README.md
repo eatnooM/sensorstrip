@@ -1,6 +1,6 @@
 # sensorstrip
 
-![Image of PCBs](resources/sensorstrip-assembled.png)
+![Image of PCBs](resources/sensorstrip-assembled.jpg)
 
 License: CC BY-NC 4.0
 
