@@ -4,7 +4,7 @@
 
 License: CC BY-NC 4.0
 
-An IR LED emitter setup, for use with the Wii or IR-based light guns with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a display (old revision shown; ignore the bodges):
+An IR LED emitter setup, for use with the Wii or IR-based light guns with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly to a display
 
 ![Image of board mounted on a TV](resources/sensorstrip-mounting.jpg)
 
