@@ -23,7 +23,7 @@ An IR LED emitter setup, for use with the Wii or IR-based light guns with a focu
 
 ## Board
 
-Grab the gerbers [sender](sensorstrip-sender-gerbers.zip), [receiver](sensorstrip-receiver-gerbers.zip) and upload to your favourite PCB fab ([OSHPark](https://oshpark.com/), [Aisler](https://aisler.net/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
+Grab the gerbers ([sender](sensorstrip-sender-gerbers.zip), [receiver](sensorstrip-receiver-gerbers.zip)) and upload to your favourite PCB fab ([OSHPark](https://oshpark.com/), [Aisler](https://aisler.net/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
 
 HASL is a-ok to use and generally the cheapest option, so would recommend this as the surface finish.
 
