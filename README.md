@@ -1,12 +1,12 @@
 # sensorstrip
 
-![Image of PCB](resources/sensorstrip-render.png)
+![Image of PCBs](resources/sensorstrip-assembled.png)
 
 License: CC BY-NC 4.0
 
 An IR LED emitter setup, for use with the Wii or IR-based light guns with a focus on remaining as slim as possible, with no components on the back of the board to allow mounting directly under a display (old revision shown; ignore the bodges):
 
-![Image of board mounted under a monitor](resources/sensorstrip-mounting.jpg)
+![Image of board mounted on a TV](resources/sensorstrip-mounting.jpg)
 
 ## BOM
 
@@ -18,12 +18,12 @@ An IR LED emitter setup, for use with the Wii or IR-based light guns with a focu
 | D1-3 | IR LED - 940nm - [LCSC](https://lcsc.com/product-detail/Infrared-IR-LEDs_Everlight-Elec-IR204-H60_C60099.html) | 3mm with 2.54mm lead spacing fits well |
 | R1 | 7-120R 0805 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF1200V_C169257.html) | Value depends on your LEDs - 56-120R should work with the Everlight emitters |
 | F1 | 0805 PTC - [LCSC](https://www.lcsc.com/product-detail/_Murata-Electronics-_C184863.html) | Overcurrent protection |
-| R2,R3 | 5.1K 0603 - [LCSC](https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
+| R2,R3 | 5.1K 0603 - [LCSC](https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_PANASONIC-ERJ3EKF5101V_C123727.html) | Required if powering from C-C cable |
 | SW1 | DPDT - [LCSC](https://lcsc.com/product-detail/Slide-Switches_C-K-JS202011SCQN_C221666.html) [(alternative)](https://lcsc.com/product-detail/Slide-Switches_XKB-Connectivity-SS-3235S-L1_C500055.html)  | Optional, but recommended; use C&K switch if using bright LEDs |
 
 ## Board
 
-Grab the gerbers ([sender](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-sender/sensorstrip-sender-gerbers.zip), [receiver](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-receiver/sensorstrip-receiver-gerbers.zip)) and upload to your favourite PCB fab ([Aisler](https://aisler.net/), [OSHPark](https://oshpark.com/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
+Grab the gerbers [sender](sensorstrip-sender-gerbers.zip), [receiver](sensorstrip-receiver-gerbers.zip) and upload to your favourite PCB fab ([OSHPark](https://oshpark.com/), [Aisler](https://aisler.net/), [JLCPCB](https://jlcpcb.com/)). Default settings should be fine - I wouldn't recommend getting the boards any thinner than 1.6mm as may restrict your mounting options (the LEDs can fire straight out at 1.6mm without catching on the display because the board is thicker than the LEDs' radius), [as shown here](resources/sensorstrip-pcb-thickness.jpg)
 
 HASL is a-ok to use and generally the cheapest option, so would recommend this as the surface finish.
 
@@ -58,10 +58,10 @@ Once you're done, plug in your cable between the Power out of the sender board a
 
 If you need more emitters, you can daisy chain receiver boards. If you're looking to chain a whopping 8 boards together for a 4x6 setup, however, be aware that the recommended power switch has a 600mA current capacity and the BOM entry for F1 has a hold current of 750mA - the [Littelfuse 0805L100WR](https://www.lcsc.com/product-detail/Resettable-Fuses_Littelfuse-0805L100WR_C80270.html) is more suited for higher draw scenarios.
 
-Aside from the potentially different fuse and LEDs, assembly works just the same as a Wii sensor bar setup, except you will add 2 more receiver boards with both J1 and J2 populated, so you can pass the power through them to the subsequent board.
+Aside from the potentially different fuse and LEDs, assembly works just the same as a Wii sensor bar setup, except you will add 2 more power boards with both J1 and J2 populated, so you can pass the power through them to the subsequent board.
 
-You'll also need more space between your boards - Molex only make cable assemblies up to 600mm in length which should _just_ fit a 42" screen if it's skinny using a daisy-chained config or possibly 48" with a power board mounted on the back of a display (no promises; this is easy to test on your own display with a piece of string and a ruler). If you want longer cable assemblies, you're stuck either crimping your own or using a custom cable assembly service, such as [LCSC](https://www.lcsc.com/newservice) (seriously, get someone else to do it)
+With Molex's preassembled cables only running up to 60cm in length, you're unlikely to be able to fit any larger than a 42 inch TV without either crimping your own cables (not fun), ordering a custom cable assembly (I've tried JLCPCB's service and it was pretty good, but delivery is a bit pricey) or using [the coupler board](https://github.com/eatnooM/sensorstrip/blob/main/sensorstrip-coupler-gerbers.zip) to join 2 cables.
+You can omit the Molex connectors entirely and just solder wires to feed power through, but be sure the through-hole joints don't mess with your mounting solution (i.e. use thick tape).
 
 ## TODO
 - Swap jumper footprint for combination SMD / THT to allow for easy power switch relocation
-
