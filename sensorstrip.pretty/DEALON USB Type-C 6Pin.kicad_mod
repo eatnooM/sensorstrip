@@ -1,0 +1,237 @@
+(footprint "DEALON USB Type-C 6Pin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.22 3.67 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ab867a83-57d8-4aaf-b8af-07fdaccfae37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DEALON USB Type-C 6Pin"
+		(at -0.1 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23b906c1-ccc2-4e39-bfde-e418382d038f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7d74065-fe65-459b-8abc-fd7a466d445c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63dee23f-8ff0-4a6d-80dc-69f23b216d66")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c6d785a-8a56-4f4a-bae3-363768122755")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.26 -0.5)
+		(end -4.26 3.43)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aac1ccfa-351e-4e8e-bb4f-9d223244861e")
+	)
+	(fp_line
+		(start -4.26 4.78)
+		(end -4.26 6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cabf2b59-adc0-43c0-a153-393953a3368c")
+	)
+	(fp_line
+		(start -4.26 6.9)
+		(end 4.26 6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "640deb39-7fdf-4d7e-8ff6-79adfeb9969c")
+	)
+	(fp_line
+		(start -3.3 -0.5)
+		(end -4.25 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1029be05-5e4f-4ddc-b7fa-b113ca5fbcf3")
+	)
+	(fp_line
+		(start 4.26 -0.5)
+		(end 3.3 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "449158b9-6116-46ba-9e83-c68c9c23303a")
+	)
+	(fp_line
+		(start 4.26 3.43)
+		(end 4.26 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31baee8d-77af-48db-801d-045e77698446")
+	)
+	(fp_line
+		(start 4.26 4.78)
+		(end 4.26 6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13a8ae62-024c-4ee9-a4b8-7d270d650a2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.18 5.02 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "81a5e9e8-1f31-407a-8824-472902bd4f1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A5" smd rect
+		(at -0.5 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8f05ca28-a7bc-4f07-ba02-712e96cb889a")
+	)
+	(pad "A9" smd rect
+		(at 1.52 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36d6587b-0351-4c0d-b0db-0f8cb87854b8")
+	)
+	(pad "A12" smd rect
+		(at 2.75 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd021cfa-3d81-4d4a-9238-bbb62a180e2f")
+	)
+	(pad "B5" smd rect
+		(at 0.5 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fc187571-d490-4efc-ae59-8f6905524c3d")
+	)
+	(pad "B9" smd rect
+		(at -1.52 0)
+		(size 0.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c6d3e914-5495-4c63-a3af-7b03bc911f0a")
+	)
+	(pad "B12" smd rect
+		(at -2.75 0)
+		(size 0.9 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a8b4d87-69af-45a3-9ea7-bd9b06bcb35c")
+	)
+	(pad "S1" smd rect
+		(at -5.42 4.1)
+		(size 2.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcb896aa-5ceb-4205-a2a7-95800f14b149")
+	)
+	(pad "S1" smd rect
+		(at -5.32 0.5)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c64e696d-faa1-462d-b073-c49dcfa77818")
+	)
+	(pad "S1" smd rect
+		(at 5.32 0.5)
+		(size 2 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f6a0c6fa-3edd-4989-96aa-b3929ebefed3")
+	)
+	(pad "S1" smd rect
+		(at 5.42 4.1)
+		(size 2.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "33dca6f0-2858-443c-a30a-ecad7907fe87")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "974741c0-e4d4-4e23-9b90-6efbe6a167cf")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 6.7 6.5) (xy -6.7 6.5) (xy -6.7 -0.87) (xy 6.7 -0.87)
+			)
+		)
+	)
+)

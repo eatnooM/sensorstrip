@@ -1,0 +1,136 @@
+(footprint "LED_THT-1.27mm-OrthogonalSMDAndTHT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 -5.26 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a91ca9d7-3913-4921-8ab1-c55d1e1921a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_THT-2.54mm-OrthogonalSMDAndTHT"
+		(at 0.02 6.92 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e0d0841-c4e8-4f0e-965b-c4c191014615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a71be6cc-99c5-49a4-8449-99b41af176b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f12a919c-646d-4859-995d-e32af9319d3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fd1f06c-0629-4686-80d1-dba112b123d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at 3 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "67d7a9c0-dd11-48cd-b8e4-b261a389fb19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.27 0)
+		(size 1.5 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "68f0300a-91bc-4f3e-8cb8-1f03c6a992a9")
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 2.65 90)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "cea1b0ae-c0e5-4935-8e33-dd03cfcc888b")
+	)
+	(pad "2" smd rect
+		(at 1.27 0)
+		(size 1.5 7.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "96c32cd5-8bda-4095-acac-3316b5ddde3b")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 2.65 90)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 0)
+		(uuid "a1f4bf90-0e74-4b84-b5ec-c337baef0eb6")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.CrtYd")
+		(uuid "d5a4f160-e3bd-4aa8-83b2-3989084a1e2d")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 2.15 4) (xy 2.9 4) (xy 2.9 10) (xy -3.1 10) (xy -3.1 4) (xy -2.35 4) (xy -2.35 -3.9) (xy 2.15 -3.9)
+			)
+		)
+	)
+)

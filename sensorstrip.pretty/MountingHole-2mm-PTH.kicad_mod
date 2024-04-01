@@ -1,0 +1,17 @@
+(footprint "MountingHole-2mm-PTH" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2ff1296b-d27a-41e2-a176-050b6895188e)
+  )
+  (fp_text value "MountingHole-2mm-PTH" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 02ecc3c4-7957-4d59-bec7-3aaa4be7852d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 987fdc99-1d63-4bc8-9c80-d705dc48168d)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 3 3) (drill 2) (layers "*.Cu" "*.Mask") (tstamp 3a64e61c-68f1-4e49-afde-69d523788ede))
+)

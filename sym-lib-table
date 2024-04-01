@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "sensorstrip")(type "KiCad")(uri "${KIPRJMOD}/sensorstrip.kicad_sym")(options "")(descr ""))
+)

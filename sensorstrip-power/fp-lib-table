@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sensorstrip")(type "KiCad")(uri "C:/Users/eatnooM/src/sensorstrip/sensorstrip.pretty")(options "")(descr ""))
+)

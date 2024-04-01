@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.75,
-          "height": 1.25,
-          "width": 1.25
+          "drill": 0.0,
+          "height": 3.0,
+          "width": 2.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -437,7 +437,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -449,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "sensorstrip-receiver.kicad_pro",
+    "filename": "sensorstrip-power-42.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -494,14 +494,19 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "skinnyboi",
+        "pattern": "/CC*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "sensorstrip-receiver.net",
-      "plot": "sensorstrip-receiver-gerbers/",
+      "netlist": "",
+      "plot": "sensorstrip-power-42-gerbers-jlc/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
