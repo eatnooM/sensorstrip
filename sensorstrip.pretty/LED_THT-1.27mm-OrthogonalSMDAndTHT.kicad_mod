@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,9 +62,11 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
+	(attr through_hole)
 	(fp_text user "A"
 		(at 3 -3.4 0)
 		(unlocked yes)
@@ -76,8 +80,8 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.27 0)
-		(size 1.5 7.5)
+		(at -1.27 -0.125)
+		(size 1.5 7.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "68f0300a-91bc-4f3e-8cb8-1f03c6a992a9")
 	)
@@ -91,8 +95,8 @@
 		(uuid "cea1b0ae-c0e5-4935-8e33-dd03cfcc888b")
 	)
 	(pad "2" smd rect
-		(at 1.27 0)
-		(size 1.5 7.5)
+		(at 1.27 -0.125)
+		(size 1.5 7.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "96c32cd5-8bda-4095-acac-3316b5ddde3b")
 	)

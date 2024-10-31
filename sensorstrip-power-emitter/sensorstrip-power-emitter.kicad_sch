@@ -1578,6 +1578,12 @@
 		(uuid "123c119c-662e-4dba-99b6-27095782593f")
 	)
 	(junction
+		(at 115.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d72ca71-562a-4760-8be1-2a022f7b7cc9")
+	)
+	(junction
 		(at 118.11 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1588,6 +1594,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a38bc31-5e93-4ad5-9e5d-1032aad5fa17")
+	)
+	(junction
+		(at 63.5 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c5ad773-40ca-4bfd-99e2-f2669e64ca2b")
 	)
 	(junction
 		(at 63.5 68.58)
@@ -1606,6 +1618,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8c439a8-1e0d-423f-b143-ca65fe6f11cb")
+	)
+	(no_connect
+		(at 113.03 80.01)
+		(uuid "f3e57027-f919-4558-9b0b-505792981bd1")
 	)
 	(wire
 		(pts
@@ -1639,6 +1655,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 85.09) (xy 115.57 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137aeb58-703a-4c74-b042-0ad2db87a65e")
+	)
+	(wire
+		(pts
 			(xy 88.9 68.58) (xy 106.68 68.58)
 		)
 		(stroke
@@ -1669,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 77.47) (xy 63.5 91.44)
+			(xy 63.5 77.47) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1719,6 +1745,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 85.09) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cac2cc7-2634-4335-812e-e76dd5ea03d5")
+	)
+	(wire
+		(pts
 			(xy 134.62 80.01) (xy 118.11 80.01)
 		)
 		(stroke
@@ -1739,6 +1775,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61626e02-77aa-4bc3-82fe-810ad8d2c538")
+	)
+	(wire
+		(pts
 			(xy 63.5 68.58) (xy 63.5 77.47)
 		)
 		(stroke
@@ -1746,6 +1792,16 @@
 			(type default)
 		)
 		(uuid "68b598d8-e01c-4d2b-938b-be6c51f8da0e")
+	)
+	(wire
+		(pts
+			(xy 115.57 85.09) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8c5f85-1ff3-49d1-9a83-a314ed22ab52")
 	)
 	(wire
 		(pts
@@ -1806,6 +1862,16 @@
 			(type default)
 		)
 		(uuid "92941b18-c4d7-4d7b-bba6-c2f8fb6120d7")
+	)
+	(wire
+		(pts
+			(xy 63.5 85.09) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a562f0c9-df68-4df4-8570-417266944596")
 	)
 	(wire
 		(pts
@@ -1879,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 80.01) (xy 115.57 91.44)
+			(xy 115.57 80.01) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2207,7 +2273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
+		(property "Footprint" "sensorstrip:Molex_Picoblade_53261-0271-Hybrid"
 			(at 143.51 85.09 0)
 			(effects
 				(font
@@ -2597,6 +2663,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 96.52 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bdb2e33-8ded-4ca0-97f4-6ee6991e774a")
+		(property "Reference" "R4"
+			(at 96.52 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 96.52 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 96.52 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d65234d-b525-41d5-8627-c9b06ece5eb5")
+		)
+		(pin "2"
+			(uuid "a01a1bc4-4108-4e81-83c2-551fdddd5fb9")
+		)
+		(instances
+			(project "sensorstrip-power-emitter"
+				(path "/de367d23-fe77-4b45-8815-68113c5ee5ff"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 85.09 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab836c70-2c69-47bc-979e-76848ab547a5")
+		(property "Reference" "D4"
+			(at 85.344 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 85.344 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2e09e65-d286-4b06-83bb-9c14d789bae8")
+		)
+		(pin "2"
+			(uuid "d7373ec5-e05d-4f79-b93e-c8ac3d6ea1fd")
+		)
+		(instances
+			(project "sensorstrip-power-emitter"
+				(path "/de367d23-fe77-4b45-8815-68113c5ee5ff"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sensorstrip:USB_C_Receptacle_PowerOnly")
 		(at 104.14 41.91 270)
 		(unit 1)
@@ -2849,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Value" "120R"
+		(property "Value" "10R"
 			(at 105.41 89.2611 90)
 			(effects
 				(font
