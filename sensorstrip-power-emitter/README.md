@@ -2,7 +2,7 @@
 
 A small and elegant board that will take 5V from its USB-C board to power its own LEDs and pass it on to any other emitter boards in your setup.
 
-These boards are ideal if you have 
+This board is ideal for the smallest setup possible with no dedicated power board.
 
 ## BOM
 
