@@ -38,10 +38,10 @@ Wii / 2IR light guns only:
 - 1x [power-4ir](/sensorstrip-power-4ir) + 4x [emitter](/sensorstrip-emitter)
 
 Wii / 2IR light guns *and* 4IR light guns in square layout (OpenFIRE):
-- 1x [power-4ir](/sensorstrip-power-42-square) + 4x [emitter](/sensorstrip-emitter)
+- 1x [power-42-square](/sensorstrip-power-42-square) + 4x [emitter](/sensorstrip-emitter)
 
 Wii / 2IR light guns *and* 4IR light guns in diamond layout (Gun4IR):
-- 1x [power-4ir](/sensorstrip-power-42-diamond) + 6x [emitter](/sensorstrip-emitter)
+- 1x [power-42-diamons](/sensorstrip-power-42-diamond) + 6x [emitter](/sensorstrip-emitter)
 
 ### Steps - Wii Sensor bar (power-emitter + emitter)
 
