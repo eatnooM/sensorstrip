@@ -2,6 +2,8 @@
 
 A board that will take 5V from its USB-C board to and pass it on to all 4 emitters, with an on-off switch.
 
+![Image of power-4ir board](/resources/power-4ir.jpg)
+
 These boards are ideal if you only ever plan to use the emitters with light guns.
 
 ## BOM

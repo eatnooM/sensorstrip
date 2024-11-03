@@ -2,6 +2,9 @@
 
 This board is only useful if you use 4IR light guns supporting a square LED layout (effectively, top + bottom sensor bars). At present, this is only true of [the OpenFIRE project](https://openfirelightgun.org/)
 
+![Image of power-42-square board](/resources/power-42-square.jpg)
+
+
 A board that will take 5V from its USB-C board with 3 power states:
 
 - Off

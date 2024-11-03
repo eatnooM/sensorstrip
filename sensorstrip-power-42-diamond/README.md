@@ -1,6 +1,8 @@
 # sensorstrip-power-42-diamond
 
-You'd have to be quite mad to use this board.
+You'd have to be quite mad to use this board. Here's a picture of mine:
+
+![Image of power-42-diamond board](/resources/power-42-diamond.jpg)
 
 A board that will take 5V from its USB-C board with 3 power states:
 

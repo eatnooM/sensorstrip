@@ -2,6 +2,8 @@
 
 The crux of the project - a small, simple board to hold some IR LEDs. Any build will include at least one of these.
 
+![Image of emitter board](/resources/emitter.jpg)
+
 As well as these, you will need something to supply power. Any of the boards with 'power' in their name can handle this.
 
 ## BOM
