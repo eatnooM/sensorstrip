@@ -59,6 +59,12 @@ I swear I'll flesh this out later but here's how I'd go about soldering up the s
 
 Once you're done, plug in your cable between the Power out of the power-emitter board and the Power in on the emitter anddddd fingers crossed, you have light! The IR LEDs in the BOM aren't visible to the naked eye, so you may want to use a phone to test (I've heard iPhones like to filter IR out, though)
 
+## Shells
+
+If you want a nice enclosure to keep things looking tidy, RayneX has made [some brilliant shells](https://www.printables.com/model/1063020-sensorstrip-led-emitter-shell-for-openfire-gun4ir) on Printables.
+
+There are enclosures for the emitter boards and the power-42-square board (which should also fit the latest revision of the power-4ir board, but this is untested at present).
+
 ## TODO
 - Take some nice pictures of common setups
 - Video showing assembly? Ugh
